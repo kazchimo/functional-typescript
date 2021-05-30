@@ -40,7 +40,7 @@ console.log(
 );
 
 console.log(tuple(S.Semigroup, S.Semigroup).concat(["a", "b"], ["c", "d"]));
-console.log(tuple(S.Semigroup, S.Semigroup).concat(["a", "b"], ["c"]));
+// console.log(tuple(S.Semigroup, S.Semigroup).concat(["a", "b"], ["c"]));
 
 console.log(constant("a").concat("b", "c"));
 
